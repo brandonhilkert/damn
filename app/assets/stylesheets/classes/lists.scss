@@ -1,0 +1,33 @@
+ul li {
+  display: block;
+  
+  border-bottom: 1px solid black;  
+
+  a {
+    padding: 10px 5px 10px 10px;
+    display: block;
+  }
+}
+
+a.back-home {
+  width: 75%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.image {
+  width: inherit;
+  margin-bottom: 15px;
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .image img {
+    max-width: 90%;
+  }
+}
